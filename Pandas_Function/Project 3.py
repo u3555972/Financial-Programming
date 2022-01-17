@@ -114,7 +114,7 @@ def coordinatesStore(df_scraped):
     '''
     
     for i in range(len(df_scraped)):
-        parameters= {"key":"AIzaSyC0DM3CqpVufyqks9nKhyuKqjuN9HOKqsA", 
+        parameters= {"key":"#Add API Key HERE", 
         "address":df_scraped.Address.iloc[i]}
         
         base_url = 'https://maps.googleapis.com/maps/api/geocode/json?'
